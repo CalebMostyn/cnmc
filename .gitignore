@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# build stuff
+__pycache__/
+*.os
+*.so
+.sconsign.dblite
