@@ -7,3 +7,4 @@ __pycache__/
 *.os
 *.so
 .sconsign.dblite
+src/gen/
