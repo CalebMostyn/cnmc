@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="cnmc"
+run/main_scene="uid://mtq6k268sdit"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"

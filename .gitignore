@@ -8,3 +8,6 @@ __pycache__/
 *.so
 .sconsign.dblite
 src/gen/
+
+# editor
+.clangd

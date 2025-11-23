@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://mtq6k268sdit"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4xowi"]
+
+[sub_resource type="Sky" id="Sky_4xowi"]
+sky_material = SubResource("ProceduralSkyMaterial_4xowi")
+
+[sub_resource type="Environment" id="Environment_4xowi"]
+background_mode = 2
+sky = SubResource("Sky_4xowi")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.7288957)
+environment = SubResource("Environment_4xowi")
+current = true
+fov = 83.6
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0905327, 0)
+
+[node name="Block" type="Block" parent="."]
